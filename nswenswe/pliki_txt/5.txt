@@ -1,0 +1,4 @@
+Północ i gwiazdy
+
+Jest to chyba jedna z najbardziej znanych metod. Większość ludzi zapytanych o to jak wyznaczać kierunki świata bez używania kompasu wymieni właśnie gwiazdy. Najbardziej widoczną konstelacją nad naszym Polskim niebem jest Wielki Wóz (Duża Niedźwiedzica). Odnajdując ten gwiazdozbiór wystarczy przeprowadzić linie prostą przez 2 skrajne gwiazdy z prawej strony Wielkiego Wozu (tak jak na obrazku), a następnie odległość powstałą między pierwszą a drugą gwiazdą przenosimy pięciokrotnie na naszą prostą i gotowe. Jest to podręcznikowy sposób na wyznaczanie północy. 
+Pod względem dokładności jest to jedna z lepszych metod. Ma jednak swoje wady. Wystarczy lekkie zachmurzenie, a szanse na odczytanie kierunku marszu drastycznie maleją.

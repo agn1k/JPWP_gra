@@ -1,0 +1,14 @@
+c:\users\wicher\documents\visual studio 2015\Projects\nswenswe\nswenswe\bin\Debug\nswenswe.exe.config
+c:\users\wicher\documents\visual studio 2015\Projects\nswenswe\nswenswe\bin\Debug\nswenswe.exe
+c:\users\wicher\documents\visual studio 2015\Projects\nswenswe\nswenswe\bin\Debug\nswenswe.pdb
+c:\users\wicher\documents\visual studio 2015\Projects\nswenswe\nswenswe\obj\Debug\nswenswe.Properties.Resources.resources
+c:\users\wicher\documents\visual studio 2015\Projects\nswenswe\nswenswe\obj\Debug\nswenswe.csproj.GenerateResource.Cache
+c:\users\wicher\documents\visual studio 2015\Projects\nswenswe\nswenswe\obj\Debug\nswenswe.exe
+c:\users\wicher\documents\visual studio 2015\Projects\nswenswe\nswenswe\obj\Debug\nswenswe.pdb
+c:\users\wicher\documents\visual studio 2015\Projects\nswenswe\nswenswe\obj\Debug\nswenswe.csprojResolveAssemblyReference.cache
+C:\Users\wicher\Documents\Visual Studio 2015\Projects\nswenswe\nswenswe\obj\Debug\nswenswe.Rozpoczecie_gry.resources
+C:\Users\wicher\Documents\Visual Studio 2015\Projects\nswenswe\nswenswe\obj\Debug\nswenswe.Gra.resources
+C:\Users\wicher\Documents\Visual Studio 2015\Projects\nswenswe\nswenswe\obj\Debug\nswenswe.Przegrana.resources
+C:\Users\wicher\Documents\Visual Studio 2015\Projects\nswenswe\nswenswe\obj\Debug\nswenswe.Wygrana.resources
+C:\Users\wicher\Documents\Visual Studio 2015\Projects\nswenswe\nswenswe\obj\Debug\nswenswe.Pomoc.resources
+C:\Users\wicher\Documents\Visual Studio 2015\Projects\nswenswe\nswenswe\bin\Debug\nswenswe.XML

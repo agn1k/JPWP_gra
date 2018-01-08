@@ -1,0 +1,5 @@
+Zegarek
+
+Zegarek analogowy może pomóc w wyznaczaniu kierunków świata. W tym celu wystarczy ustawić się tak aby mała wskazówka była skierowana w stronę słońca. Wówczas kąt zawarty między małą wskazówką a godziną 12 (zawsze z prawej strony) dzielimy na połowę i oto mamy kierunek (w zależności od godziny) północny między godzinami 24 i 12 oraz południowy między 12, a 24.
+
+Jest to dość dokładna metoda w słoneczny dzień. Podobnie jak w przypadku gwiazd o wiele gorzej jest w pochmurne dni, chociaż w tym wypadku jest szansa na ustalenie chociaż orientacyjnego kierunku sugerując się cieniem.

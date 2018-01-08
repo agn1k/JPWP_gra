@@ -1,0 +1,1198 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>nswenswe</name>
+    </assembly>
+    <members>
+        <member name="T:nswenswe.Rozpoczecie_gry">
+            <summary>
+            Class Rozpoczecie_gry.
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <summary>
+            Class Rozpoczecie_gry.
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+        </member>
+        <member name="M:nswenswe.Rozpoczecie_gry.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:nswenswe.Rozpoczecie_gry"/> class.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Rozpoczecie_gry.bDalej_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the bDalej control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:nswenswe.Rozpoczecie_gry.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Rozpoczecie_gry.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:nswenswe.Rozpoczecie_gry.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:nswenswe.Rozpoczecie_gry.lNSWEKierunkiSwiata">
+            <summary>
+            etykieta - napis NSWE Kierunki Swiata
+            </summary>
+        </member>
+        <member name="F:nswenswe.Rozpoczecie_gry.bRozpocznijGre">
+            <summary>
+            przycisk "Rozpocznij Gre"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Rozpoczecie_gry.rtbZasadyGry">
+            <summary>
+            tekst z zasadami gry
+            </summary>
+        </member>
+        <member name="F:nswenswe.Rozpoczecie_gry.richTextBox1">
+            <summary>
+            tekst z zasadami gry
+            </summary>
+        </member>
+        <member name="F:nswenswe.Rozpoczecie_gry.richTextBox2">
+            <summary>
+            tekst z zasadami gry
+            </summary>
+        </member>
+        <member name="T:nswenswe.Gra">
+            <summary>
+            Class Gra.
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <summary>
+            Class Gra.
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+        </member>
+        <member name="F:nswenswe.Gra.rysunek">
+            <summary>
+            rysunek
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.labedz">
+            <summary>
+            labedz
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.drzewo">
+            <summary>
+            drzewo
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.zegarek">
+            <summary>
+            zegarek
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.ptak">
+            <summary>
+            ptak
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.kosciol">
+            <summary>
+            kosciol
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.ursaminor">
+            <summary>
+            ursaminor
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.mrowka">
+            <summary>
+            mrowka
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.sciezka_grafika">
+            <summary>
+            sciezka do grafiki
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.linia">
+            <summary>
+            linia - lista punktow, na podstawie ktorych tworzy sie obrazek
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.szanse">
+            <summary>
+            ilosc szans
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.poziom">
+            <summary>
+            numer poziomu
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.wygrana_poziomu">
+            <summary>
+            czy wygrano poziom
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.wynik">
+            <summary>
+            wynik - liczba punktow zdobytych przez uzytkownika
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.czas">
+            <summary>
+            czas - pozostaly czas rozgrywki
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.bok_kratki">
+            <summary>
+            bok kratki - odleglosc boku kratki
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.pkt_start">
+            <summary>
+            punkt startowy rysowania linii
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.pkt_stop">
+            <summary>
+            punkt koncowy rysowania linii
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.nr_pkt">
+            <summary>
+            numer punktu obrazka
+            </summary>
+        </member>
+        <member name="M:nswenswe.Gra.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:nswenswe.Gra"/> class.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Gra.wczytuje_poziom">
+            <summary>
+            Wczytuje poziom.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Gra.wybiera_poziom">
+            <summary>
+            Wybiera poziom.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Gra.ustawia_napis">
+            <summary>
+            Ustawia napis.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Gra.radioButtons_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the radioButtons control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:nswenswe.Gra.blokuje_rb(System.Windows.Forms.RadioButton)">
+            <summary>
+            Blokuje radiobuttony.
+            </summary>
+            <param name="rb">The rb.</param>
+        </member>
+        <member name="M:nswenswe.Gra.mechanika_gry">
+            <summary>
+            Mechanika gry.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Gra.tworzy_linie">
+            <summary>
+            Tworzy linie.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Gra.pbPlansza_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Handles the Paint event of the pbPlansza control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.PaintEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:nswenswe.Gra.tCzas_Tick(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Tick event of the tCzas control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:nswenswe.Gra.bWyjscie_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the bWyjscie control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:nswenswe.Gra.bPomoc_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the bPomoc control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:nswenswe.Gra.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Gra.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:nswenswe.Gra.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.gbPlansza">
+            <summary>
+            groupbox z plansza
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb99">
+            <summary>
+            The RB99
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb98">
+            <summary>
+            The RB98
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb89">
+            <summary>
+            The RB89
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb88">
+            <summary>
+            The RB88
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb79">
+            <summary>
+            The RB79
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb78">
+            <summary>
+            The RB78
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb95">
+            <summary>
+            The RB95
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb94">
+            <summary>
+            The RB94
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb85">
+            <summary>
+            The RB85
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb84">
+            <summary>
+            The RB84
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb97">
+            <summary>
+            The RB97
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb96">
+            <summary>
+            The RB96
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb87">
+            <summary>
+            The RB87
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb86">
+            <summary>
+            The RB86
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb77">
+            <summary>
+            The RB77
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb76">
+            <summary>
+            The RB76
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb75">
+            <summary>
+            The RB75
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb74">
+            <summary>
+            The RB74
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb91">
+            <summary>
+            The RB91
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb90">
+            <summary>
+            The RB90
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb81">
+            <summary>
+            The RB81
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb80">
+            <summary>
+            The RB80
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb24">
+            <summary>
+            The RB24
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb29">
+            <summary>
+            The RB29
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb19">
+            <summary>
+            The RB19
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb93">
+            <summary>
+            The RB93
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb92">
+            <summary>
+            The RB92
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb83">
+            <summary>
+            The RB83
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb82">
+            <summary>
+            The RB82
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb73">
+            <summary>
+            The RB73
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb72">
+            <summary>
+            The RB72
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb63">
+            <summary>
+            The RB63
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb62">
+            <summary>
+            The RB62
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb69">
+            <summary>
+            The RB69
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb68">
+            <summary>
+            The RB68
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb59">
+            <summary>
+            The RB59
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb58">
+            <summary>
+            The RB58
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb49">
+            <summary>
+            The RB49
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb48">
+            <summary>
+            The RB48
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb39">
+            <summary>
+            The RB39
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb38">
+            <summary>
+            The RB38
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb67">
+            <summary>
+            The RB67
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb66">
+            <summary>
+            The RB66
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb57">
+            <summary>
+            The RB57
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb56">
+            <summary>
+            The RB56
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb47">
+            <summary>
+            The RB47
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb46">
+            <summary>
+            The RB46
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb37">
+            <summary>
+            The RB37
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb36">
+            <summary>
+            The RB36
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb65">
+            <summary>
+            The RB65
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb64">
+            <summary>
+            The RB64
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb55">
+            <summary>
+            The RB55
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb54">
+            <summary>
+            The RB54
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb45">
+            <summary>
+            The RB45
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb44">
+            <summary>
+            The RB44
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb35">
+            <summary>
+            The RB35
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb34">
+            <summary>
+            The RB34
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb53">
+            <summary>
+            The RB53
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb52">
+            <summary>
+            The RB52
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb43">
+            <summary>
+            The RB43
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb42">
+            <summary>
+            The RB42
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb33">
+            <summary>
+            The RB33
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb32">
+            <summary>
+            The RB32
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb23">
+            <summary>
+            The RB23
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb22">
+            <summary>
+            The RB22
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb71">
+            <summary>
+            The RB71
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb70">
+            <summary>
+            The RB70
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb61">
+            <summary>
+            The RB61
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb60">
+            <summary>
+            The RB60
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb51">
+            <summary>
+            The RB51
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb50">
+            <summary>
+            The RB50
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb41">
+            <summary>
+            The RB41
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb40">
+            <summary>
+            The RB40
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb31">
+            <summary>
+            The RB31
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb30">
+            <summary>
+            The RB30
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb21">
+            <summary>
+            The RB21
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb20">
+            <summary>
+            The RB20
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb28">
+            <summary>
+            The RB28
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb27">
+            <summary>
+            The RB27
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb18">
+            <summary>
+            The RB18
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb17">
+            <summary>
+            The RB17
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb26">
+            <summary>
+            The RB26
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb25">
+            <summary>
+            The RB25
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb16">
+            <summary>
+            The RB16
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb15">
+            <summary>
+            The RB15
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb14">
+            <summary>
+            The RB14
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb13">
+            <summary>
+            The RB13
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb12">
+            <summary>
+            The RB12
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb11">
+            <summary>
+            The RB11
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb10">
+            <summary>
+            The RB10
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb09">
+            <summary>
+            The RB09
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb08">
+            <summary>
+            The RB08
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb07">
+            <summary>
+            The RB07
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb06">
+            <summary>
+            The RB06
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb05">
+            <summary>
+            The RB05
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb04">
+            <summary>
+            The RB04
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb03">
+            <summary>
+            The RB03
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb02">
+            <summary>
+            The RB02
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb01">
+            <summary>
+            The RB01
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.rb00">
+            <summary>
+            The RB00
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.pbPlansza">
+            <summary>
+            grafika planszy
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.lKierujSieNaNapis">
+            <summary>
+            etykieta - napis "Kieruj sie na:"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.bWyjscie">
+            <summary>
+            przycisk - wyjscie
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.lPoziomNapis">
+            <summary>
+            etykieta - napis "POZIOM"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.pMenu">
+            <summary>
+            panel z menu
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.lCzasNapis">
+            <summary>
+            etykieta - napis "Czas:"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.lSzanseNapis">
+            <summary>
+            etykieta - napis "Szanse:"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.lPoziom">
+            <summary>
+            etykieta - numer poziomu
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.bPomoc">
+            <summary>
+            przycisk - "POMOC"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.bSzanse">
+            <summary>
+            przycisk - wyswietla liczbe szans
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.bCzas">
+            <summary>
+            przycisk - wyswietla pozostaly czas
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.bKierunek">
+            <summary>
+            przycisk - wyswietla kierunek
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.lKierunek">
+            <summary>
+            etykieta - wyswietla kierunek
+            </summary>
+        </member>
+        <member name="F:nswenswe.Gra.tCzas">
+            <summary>
+            licznik czasu
+            </summary>
+        </member>
+        <member name="T:nswenswe.Przegrana">
+            <summary>
+            Class Przegrana.
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <summary>
+            Class Przegrana.
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+        </member>
+        <member name="M:nswenswe.Przegrana.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:nswenswe.Przegrana"/> class.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Przegrana.bPoziomOdNowa_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            Handles the 1 event of the bPoziomOdNowa_Click control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:nswenswe.Przegrana.bGraOdNowa_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the bGraOdNowa control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:nswenswe.Przegrana.bWyjscie_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the bWyjscie control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:nswenswe.Przegrana.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Przegrana.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:nswenswe.Przegrana.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:nswenswe.Przegrana.lPrzegrana">
+            <summary>
+            etykieta - wyswietla napis w przypadku przegranej
+            </summary>
+        </member>
+        <member name="F:nswenswe.Przegrana.bWyjscie">
+            <summary>
+            przycisk - "WYJSCIE"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Przegrana.bGraOdNowa">
+            <summary>
+            przycisk - "GRA OD NOWA"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Przegrana.bPoziomOdNowa">
+            <summary>
+            przycisk - "POZIOM OD NOWA"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Przegrana.pbPrzegrana">
+            <summary>
+            grafika przegranej
+            </summary>
+        </member>
+        <member name="F:nswenswe.Przegrana.lWynikNapis">
+            <summary>
+            etykieta - wyswietla napis "WYNIK:"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Przegrana.lWynik">
+            <summary>
+            etykieta - wyswietla liczbe uzyskanych przez uzytkownika punktow
+            </summary>
+        </member>
+        <member name="T:nswenswe.Wygrana">
+            <summary>
+            Class Wygrana.
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <summary>
+            Class Wygrana.
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+        </member>
+        <member name="F:nswenswe.Wygrana.sciezka_txt">
+            <summary>
+            sciezka do plikow tekstowych
+            </summary>
+        </member>
+        <member name="F:nswenswe.Wygrana.sciezka_grafika">
+            <summary>
+            sciezka do grafiki
+            </summary>
+        </member>
+        <member name="M:nswenswe.Wygrana.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:nswenswe.Wygrana"/> class.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Wygrana.czyta_z_pliku">
+            <summary>
+            Czyta z pliku.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Wygrana.wybiera_obrazek">
+            <summary>
+            Wybiera obrazek.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Wygrana.bNastepnyPoziom_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the bNastepnyPoziom control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:nswenswe.Wygrana.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Wygrana.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:nswenswe.Wygrana.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:nswenswe.Wygrana.rtbCiekawostka">
+            <summary>
+            tekst z ciekawostka
+            </summary>
+        </member>
+        <member name="F:nswenswe.Wygrana.lGratulacje">
+            <summary>
+            etykieta - wyswietla napis z gratulacjami
+            </summary>
+        </member>
+        <member name="F:nswenswe.Wygrana.bNastepnyPoziom">
+            <summary>
+            przycisk "NASTEPNY POZIOM"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Wygrana.pbCiekawostka">
+            <summary>
+            grafika dotyczaca ciekawostki
+            </summary>
+        </member>
+        <member name="F:nswenswe.Wygrana.lWynik">
+            <summary>
+            etykieta - wyswietla liczbe uzyskanych przez uzytkownika punktow
+            </summary>
+        </member>
+        <member name="F:nswenswe.Wygrana.lWynikNapis">
+            <summary>
+            etykieta - wyswietla napis "WYNIK:"
+            </summary>
+        </member>
+        <member name="T:nswenswe.Pomoc">
+            <summary>
+            Class Pomoc.
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+            <summary>
+            Class Pomoc.
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+        </member>
+        <member name="M:nswenswe.Pomoc.#ctor(System.Windows.Forms.Timer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:nswenswe.Pomoc"/> class.
+            </summary>
+            <param name="tCzas">The t czas.</param>
+        </member>
+        <member name="M:nswenswe.Pomoc.bPowrotDoGry_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the bPowrotDoGry control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:nswenswe.Pomoc.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:nswenswe.Pomoc.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:nswenswe.Pomoc.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.bPowrotDoGry">
+            <summary>
+            przycisk - powrot do gry
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.pbRozaWiatrow">
+            <summary>
+            grafika z roza wiatrow
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lPolnoc">
+            <summary>
+            etykieta - polnoc
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lPoludnie">
+            <summary>
+            etykieta - poludnie
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lW">
+            <summary>
+            etykieta - w
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lS">
+            <summary>
+            etykieta - s
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lC">
+            <summary>
+            etykieta - c
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lH">
+            <summary>
+            etykieta - h
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lO">
+            <summary>
+            etykieta - o
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lD">
+            <summary>
+            etykieta - d
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lDD">
+            <summary>
+            etykieta - dd
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lOO">
+            <summary>
+            etykieta - oo
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lHH">
+            <summary>
+            etykieta - hh
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lCC">
+            <summary>
+            etykieta - cc
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lA">
+            <summary>
+            etykieta - a
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lZ">
+            <summary>
+            etykieta - z
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.rtbAzymut">
+            <summary>
+            tekst tlumaczacy pojecie azymutu
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lAzymut">
+            <summary>
+            etykieta - wyswietla napis "AZYMUT"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.tCzasPomoc">
+            <summary>
+            licznik czasu
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.lKat">
+            <summary>
+            etykieta - wyswietla napis "Kat kierunku marszu"
+            </summary>
+        </member>
+        <member name="F:nswenswe.Pomoc.rtbStopnie">
+            <summary>
+            tekst tlumaczacy poruszanie sie po planszy za pomoca stopni
+            </summary>
+        </member>
+        <member name="M:nswenswe.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:nswenswe.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:nswenswe.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:nswenswe.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:nswenswe.Properties.Resources.plansza">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:nswenswe.Properties.Resources.pomoc">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:nswenswe.Properties.Resources.zgubiony">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
